@@ -15,7 +15,7 @@ header nav ul{
 margin:50px
 }
 
-main section h1{
+main section:nth-child(1) h1{
 
     font-size:50px;
     background-color: blueviolet;
@@ -26,9 +26,11 @@ main section:nth-child(1) p{
 
     margin-right: 350px;
     margin-left:20px;
+    margin-top:15px;
     font-size: 20px;
     line-height: 1.5;
     text-indent: 50px;
+    padding-bottom:15px;
     
 }
 
@@ -68,6 +70,23 @@ main section:nth-child(2) p:nth-child(5){
     background-color:darkmagenta;
     color: white;
 }
+main section:nth-child(3) h1{
+
+    font-size:50px;
+}
+main section:nth-child(3){
+
+    padding-top:15px;
+    margin-left:25px;
+    line-height: 1.5;
+}
+
+section:nth-child(3) ol li{
+
+    font-size: 20px;
+    
+}
+
 
 footer{
 
