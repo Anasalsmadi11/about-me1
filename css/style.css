@@ -76,7 +76,7 @@ main section:nth-child(3) h1{
 }
 main section:nth-child(3){
 
-    padding-top:15px;
+    padding: top 15px;
     margin-left:25px;
     line-height: 1.5;
 }
@@ -84,6 +84,7 @@ main section:nth-child(3){
 section:nth-child(3) ol li{
 
     font-size: 20px;
+    padding-top: 5px;
     
 }
 
@@ -96,3 +97,15 @@ footer{
     background-color: thistle;
     color:rgb(0, 0, 0);
 }
+
+table, tr, td {
+    border: 1px solid black;
+      padding-bottom: 10px;
+    text-align: center;    
+  }
+
+  table{
+padding-bottom: 20px;
+
+
+  }
